@@ -1,0 +1,79 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+.wrapper {
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    grid-template-columns: repeat(2, auto);
+    display:grid;
+}
+
+.current-contact-wrapper {
+    width:10vw;
+    height:40vh;
+    display:grid;
+}
+
+#current-contact-form {
+    width:200px;
+    height:40vh;
+    margin-top:10vh;
+}
+
+#current-contact-form input {
+    grid-template-rows: auto;
+}
+#current-contact-name, #current-contact-number {
+    margin-bottom:1vh;
+    width:200px;
+}
+
+#current-contact-message {
+    margin-bottom:1vh;
+    height:100px;
+    width:200px;
+}
+
+#current-contact-add {
+    width:150px;
+    height:6vh;
+    font-size: medium;
+    margin-left:25px;
+}
+
+.past-contacts-wrapper {
+    display: grid;
+
+}
+
+#past-contacts-search-form {
+    margin-top:1vh;
+    width:60vw;
+    height:10vh;
+}
+#past-contacts-search-input {
+    width:400px;
+    height: 6vh;
+    text-align: center;
+}
+#past-contacts-search-button {
+    width:150px;
+    height:6vh;
+    font-size: medium;
+}
+.past-contacts-message-wrapper ul {
+    padding:0px;
+    margin: 0px;
+}
+.past-contacts-message-wrapper ul li {
+    border: 1px solid skyblue;
+    border-radius:10px;
+    list-style-type: none;
+    
+    width:400px;
+    margin:5px 5px;
+    padding: 5px 5px;
+}

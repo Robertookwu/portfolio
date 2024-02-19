@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" type="module" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact-board</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="current-contact-wrapper">
+            <form id="current-contact-form">
+                <input type="text" id="current-contact-name" placeholder="name"/>
+                <input type="text" id="current-contact-number" placeholder ="1-(555)-555-5555 phone number"  />
+                <textarea id="current-contact-message" placeholder="Message"></textarea>
+                <button type="submit" id="current-contact-add">Add</button>
+            </form>
+        </div>
+        <div class="past-contacts-wrapper">
+            <div class="past-contacts-form-wrapper">
+                <form id="past-contacts-search-form">
+                    <input type="search" id="past-contacts-search-input" />
+                    <select name="search-type" id="past-contacts-search-type">
+                        <option value="name">Name</option>
+                        <option value="number">Phone Number</option>
+                    </select>
+                    <button type="submit" id="past-contacts-search-button"> Search</button>
+                </form>
+            </div>
+            <div class="past-contacts-message-wrapper">
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

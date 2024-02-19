@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+.wrapper{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0,0,0,.25);
+    display:grid;
+    margin-top:0px;
+}
+
+.age-form-wrapper{
+    width: 60vw;
+    height: 20vh;
+    display:grid;
+    margin-top:10vh;
+    margin-left:20vw;
+}
+#age-input {
+    width:40vw;
+    height:20vh;
+}
+#inputted-dob {
+    width: 200px;
+    height: 6vh;
+    margin-top:10vh;
+    margin-left:10vw;
+    margin-right:30vw;
+    margin-bottom: 1vh;
+}
+
+#calculate-button {
+    width: 200px;
+    height: 6vh;
+    margin-top: 1vh;
+    margin-left: 10vw;
+}
+
+.calculated-age-output {
+    width:50vw;
+    height:20vh;
+    display:grid;
+    margin-left:20vw;
+
+}
+
+#calculated-age {
+    margin-left: 10vw;
+    padding-top:1vh;
+    padding-left:1vw;
+    display:grid;
+}
