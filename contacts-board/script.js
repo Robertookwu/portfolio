@@ -52,7 +52,6 @@ function changeFindType(){
     pastContactSelectType.addEventListener('change',(e) => {
         e.preventDefault();
         handleSearchClick(pastContactSelectType.value);
-        console.log(pastContactSelectType.value);
     });
 }
 function findByName(){
