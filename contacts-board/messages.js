@@ -1,6 +1,6 @@
 
 export default function deliver(){
-    function browse(){
+    function browse(messages){
         
     }
     function list(messages){
